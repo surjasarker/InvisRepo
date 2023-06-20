@@ -23,10 +23,10 @@ import plotly.graph_objs as go
 import plotly.express as px
 import numpy as np
 water = pd.read_csv('new_water_done5.csv')
-green = pd.read_csv('pivoted_data_GREEN_GROWTH.csv')
-inno = pd.read_csv('pivoted_data_inno.csv')
-infra = pd.read_csv('pivoted_data_ITF_INFRA.csv')
-MEI = pd.read_csv('MEI_time_to_year.csv')
+green = pd.read_csv('iso_green.csv')
+inno = pd.read_csv('iso_inno.csv')
+infra = pd.read_csv('iso_infra.csv')
+MEI = pd.read_csv('iso_mei.csv')
 
 columns_water = water.select_dtypes(include=['float'])
 columns_inno = inno.select_dtypes(include=['float'])
